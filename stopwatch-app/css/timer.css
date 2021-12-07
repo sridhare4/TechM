@@ -1,0 +1,39 @@
+/* Main container for Stopwatch */
+#stopwatch-main {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+/* Stopwatch Timer */
+#stopwatch-timer {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  background: #4d4d33;
+  font-size: 48px;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Stopwatch Buttons */
+#reset-btn, #start-btn {
+  box-sizing: border-box;
+  width: 50%;
+  cursor: pointer;
+  padding: 20px 0;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+}
+
+/* Stopwatch Header */
+#stopwatch-header{
+  text-align: center;
+  color: #0000ff;
+}
+
+/* Buttons backgrounds*/
+#reset-btn { background-color: #a32208; }
+#start-btn { background-color: #20a308; }
