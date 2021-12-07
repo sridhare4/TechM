@@ -1,2 +1,3 @@
 # TechM
-Stopwatch application
+
+**A stopwatch application using HTML, CSS and Javscript.**
